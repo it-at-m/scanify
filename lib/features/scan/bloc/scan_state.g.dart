@@ -49,7 +49,7 @@ const _$BarcodeFormatEnumMap = {
   BarcodeFormat.dataMatrix: 'dataMatrix',
   BarcodeFormat.ean13: 'ean13',
   BarcodeFormat.ean8: 'ean8',
-  BarcodeFormat.itf: 'itf',
+  BarcodeFormat.itf14: 'itf14',
   BarcodeFormat.qrCode: 'qrCode',
   BarcodeFormat.upcA: 'upcA',
   BarcodeFormat.upcE: 'upcE',
