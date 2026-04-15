@@ -4,7 +4,7 @@
   baseBranches: ["dev"],
   packageRules: [
     {
-      matchManagers: ["pub"],
+      matchManagers: ["pub", "gradle-wrapper"],
       matchUpdateTypes: ["minor", "patch"],
       automerge: true,
     },
