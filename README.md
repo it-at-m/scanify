@@ -88,7 +88,7 @@ The app can be deployed to the Android Emulator in Android Studio or the iOS Sim
 
 #### Required for iOS Deployment
 
-- macOS operating system
+- Mac operating system
 - Xcode + CLI + current iOS build
 - [Please follow the official guide linked here](https://docs.flutter.dev/platform-integration/ios/setup)
 

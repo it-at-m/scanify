@@ -35,7 +35,12 @@ void main() {
             BlocProvider<ScanCubit>.value(value: scanCubit),
           ],
           child: const NavigationWidget(
-            pages: [SizedBox(), SizedBox(), SizedBox(), SizedBox()],
+            pages: {
+              AppTab.home: SizedBox(),
+              AppTab.scan: SizedBox(),
+              AppTab.history: SizedBox(),
+              AppTab.export: SizedBox(),
+            },
           ),
         ),
       ),
