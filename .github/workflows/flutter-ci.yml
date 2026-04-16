@@ -2,9 +2,6 @@ name: Flutter CI
 
 on:
   pull_request:
-    branches:
-      - main
-      - dev
 
 jobs:
   test-and-build:
