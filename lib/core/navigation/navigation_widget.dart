@@ -10,14 +10,17 @@ import 'package:flutter_application/features/export/views/export_page.dart';
 import 'package:wakelock_plus/wakelock_plus.dart';
 
 class NavigationWidget extends StatelessWidget {
-  const NavigationWidget({super.key});
+  final Map<AppTab, Widget> pages;
 
-  static const _pages = <Widget>[
-    HomePage(),
-    ScanPage(),
-    HistoryPage(),
-    ExportPage(),
-  ];
+  const NavigationWidget({
+    super.key,
+    this.pages = const {
+      AppTab.home: HomePage(),
+      AppTab.scan: ScanPage(),
+      AppTab.history: HistoryPage(),
+      AppTab.export: ExportPage(),
+    },
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -38,7 +41,10 @@ class NavigationWidget extends StatelessWidget {
       },
       builder: (context, tab) {
         return Scaffold(
-          body: IndexedStack(index: tab.index, children: _pages),
+          body: IndexedStack(
+            index: tab.index,
+            children: AppTab.values.map((t) => pages[t]!).toList(),
+          ),
           bottomNavigationBar: NavigationBar(
             selectedIndex: tab.index,
             onDestinationSelected: (i) =>

@@ -43,7 +43,7 @@ class OnboardingScanOptionsPage extends StatelessWidget {
               '• aztec\n'
               '• codabar\n'
               '• code93\n'
-              '• itf\n'
+              '• itf14\n'
               '• upcA\n'
               '• upcE',
               style: bodyStyle,
