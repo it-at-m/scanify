@@ -36,7 +36,7 @@ class _FormatSelectionSheetState extends State<FormatSelectionSheet> {
     BarcodeFormat.aztec,
     BarcodeFormat.codabar,
     BarcodeFormat.code93,
-    BarcodeFormat.itf,
+    BarcodeFormat.itf14,
     BarcodeFormat.upcA,
     BarcodeFormat.upcE,
   ];

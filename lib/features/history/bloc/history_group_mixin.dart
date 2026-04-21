@@ -23,6 +23,7 @@ mixin HistoryGroupMixin on HydratedCubit<HistoryState> {
     return id;
   }
 
+  // ignore: unused_element
   (String id, GroupModel? toInsert) _getOrCreateTodayGroup(
     HistoryState s,
     DateTime now,

@@ -2,7 +2,7 @@
 
 # Scanify - Cross-Platform Scanner App
 
-[![Made with love by it@M][made-with-love-shield]][itm-opensource] [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT) [![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white&style=for-the-badge)](https://flutter.dev/) [![Platforms: iOS & Android](https://img.shields.io/badge/Platforms-iOS_%7C_Android-lightgrey.svg?style=for-the-badge)](#) [![State Management: Bloc](https://img.shields.io/badge/State_Management-Bloc-blue.svg?style=for-the-badge)](https://bloclibrary.dev/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/it-at-m/scanify/pulls) [![GitHub stars](https://img.shields.io/github/stars/it-at-m/scanify.svg?style=for-the-badge)](https://github.com/it-at-m/scanify) [![GitHub issues](https://img.shields.io/github/issues/it-at-m/scanify.svg?style=for-the-badge)](https://github.com/it-at-m/scanify/issues)
+[![Made with love by it@M][made-with-love-shield]][itm-opensource] [![License][license-shield]][license-url] ![Android][android-shield] ![iOS][ios-shield] [![Flutter][flutter-shield]][flutter-url] [![Bloc][bloc-shield]][bloc-url] [![PRs][prs-shield]][prs-url] [![Stars][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url]
 
 The **Scanify** flutter application is a powerful camera based scanner for all common QR and barcode formats. Scanify is originally developed by a student as a project at Hof Universtiy (Hochschule Hof). Camera permission is required for full functionallity.
 
@@ -88,7 +88,7 @@ The app can be deployed to the Android Emulator in Android Studio or the iOS Sim
 
 #### Required for iOS Deployment
 
-- macOS operating system
+- Mac operating system
 - Xcode + CLI + current iOS build
 - [Please follow the official guide linked here](https://docs.flutter.dev/platform-integration/ios/setup)
 
@@ -212,8 +212,23 @@ Distributed under the MIT License. See [LICENSE](LICENSE) file for more informat
 ## Contact
 
 it@M - opensource@muenchen.de
+AppCenter - apps@muenchen.de
 
 <!-- project shields / links -->
 
 [made-with-love-shield]: https://img.shields.io/badge/made%20with%20%E2%9D%A4%20by-it%40M-yellow?style=for-the-badge
 [itm-opensource]: https://opensource.muenchen.de/
+[license-shield]: https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge
+[license-url]: LICENSE
+[android-shield]: https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white
+[ios-shield]: https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white
+[flutter-shield]: https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white&style=for-the-badge
+[flutter-url]: https://flutter.dev/
+[bloc-shield]: https://img.shields.io/badge/State_Management-Bloc-blue.svg?style=for-the-badge
+[bloc-url]: https://bloclibrary.dev/
+[prs-shield]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge
+[prs-url]: https://github.com/it-at-m/scanify/pulls
+[stars-shield]: https://img.shields.io/github/stars/it-at-m/scanify.svg?style=for-the-badge
+[stars-url]: https://github.com/it-at-m/scanify
+[issues-shield]: https://img.shields.io/github/issues/it-at-m/scanify.svg?style=for-the-badge
+[issues-url]: https://github.com/it-at-m/scanify/issues
