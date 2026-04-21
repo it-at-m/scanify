@@ -21,7 +21,7 @@ class OnboardingGeneralPage extends StatelessWidget {
             Text('General', style: headerStyle),
             const SizedBox(height: 8),
             Text(
-              'The Scanify flutter application is a powerful camera based scanner for all common QR and barcode formats. Scanify is originally developed by a student as a project at Hof Universtiy (Hochschule Hof). Camera permission is required for full functionallity.',
+              'The Scanify flutter application is a powerful camera based scanner for all common QR and barcode formats. Scanify is originally developed by a student as a project at Hof University (Hochschule Hof). Camera permission is required for full functionality.',
               style: bodyStyle,
             ),
             const Divider(height: 32),
