@@ -1,15 +1,23 @@
-name: Flutter CI
+name: Flutter Build
 
 on:
+  push:
   pull_request:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
 jobs:
-  test-and-build:
+  flutter-build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
@@ -29,5 +37,5 @@ jobs:
       - name: Run tests
         run: flutter test
 
-      - name: Test Android Build
+      - name: Build Debug APK
         run: flutter build apk --debug
