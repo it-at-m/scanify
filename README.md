@@ -4,7 +4,7 @@
 
 [![Made with love by it@M][made-with-love-shield]][itm-opensource] [![License][license-shield]][license-url] ![Android][android-shield] ![iOS][ios-shield] [![Flutter][flutter-shield]][flutter-url] [![Bloc][bloc-shield]][bloc-url] [![PRs][prs-shield]][prs-url] [![Stars][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url]
 
-The **Scanify** flutter application is a powerful camera based scanner for all common QR and barcode formats. Scanify is originally developed by a student as a project at Hof Universtiy (Hochschule Hof). Camera permission is required for full functionallity.
+The **Scanify** flutter application is a powerful camera based scanner for all common QR and barcode formats. Scanify is originally developed by a student as a project at Hof University (Hochschule Hof). Camera permission is required for full functionality.
 
 ## Screenshots
 
