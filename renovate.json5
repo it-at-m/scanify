@@ -1,13 +1,20 @@
 {
-  $schema: "https://docs.renovatebot.com/renovate-schema.json",
-  extends: ["config:recommended"],
-  baseBranchPatterns: ["dev"],
+  $schema: 'https://docs.renovatebot.com/renovate-schema.json',
+  extends: [
+    'config:recommended',
+  ],
+  baseBranchPatterns: [
+    'dev',
+  ],
   automerge: true,
-  automergeType: "pr",
+  automergeType: 'pr',
   platformAutomerge: true,
   packageRules: [
     {
-      matchManagers: ["gradle", "gradle-wrapper"],
+      matchManagers: [
+        'gradle',
+        'gradle-wrapper',
+      ],
       enabled: false,
     },
   ],
