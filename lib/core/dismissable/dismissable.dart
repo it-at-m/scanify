@@ -107,7 +107,6 @@ enum DismissDirection {
 /// list item, it must have a key that distinguishes it from the other items and
 /// its [onDismissed] callback must remove the item from the list.
 
-@override
 class Dismissible extends StatefulWidget {
   /// Creates a widget that can be dismissed.
   ///
