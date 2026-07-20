@@ -1,4 +1,4 @@
-package com.example.flutter_application
+package de.muenchen.appcenter.scanify
 
 import io.flutter.embedding.android.FlutterActivity
 
