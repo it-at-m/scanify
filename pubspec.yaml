@@ -65,7 +65,7 @@ dev_dependencies:
   rename: ^3.1.0
   json_serializable: ^6.11.1
   build_runner: ^2.10.3
-  freezed: ^3.2.3
+  freezed: ^4.0.0
   bloc_test: ^10.0.0
   mocktail: ^1.0.4
 
