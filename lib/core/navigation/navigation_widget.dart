@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_application/core/navigation/navigation_cubit.dart';
 import 'package:flutter_application/features/scan/bloc/scan_cubit.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

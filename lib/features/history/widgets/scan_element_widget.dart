@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart' hide Dismissible, DismissDirection;
+import 'package:material_ui/material_ui.dart' hide Dismissible, DismissDirection;
 import 'package:flutter_application/core/widgets/dismiss_background.dart';
 import 'package:flutter_application/features/scan/models/scan_model.dart';
 import 'package:flutter_application/core/dismissable/dismissable.dart';
