@@ -45,7 +45,7 @@ class OnboardingGeneralPage extends StatelessWidget {
                   showLicensePage(
                     context: context,
                     applicationName: 'Scanify',
-                    applicationVersion: '1.0.0',
+                    applicationVersion: '1.1.0',
                   );
                 },
                 child: const Text('View all Licenses'),
