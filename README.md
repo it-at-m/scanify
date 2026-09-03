@@ -12,7 +12,7 @@ The **Scanify** flutter application is a powerful camera based scanner for all c
   <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="80">
 </a>
 
-The easiest way to use Signalo is to download it directly from the Google Play Store.
+The easiest way to use Scanify is to download it directly from the Google Play Store.
 
 ## Screenshots
 
