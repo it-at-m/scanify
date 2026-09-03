@@ -57,6 +57,7 @@ class App extends StatelessWidget {
             themeMode: themeMode,
             home: const NavigationWidget(),
             builder: (context, child) =>
+                // ignore: deprecated_member_use
                 MaterialUiCompatibilityBridge(child: child!),
           );
         },
