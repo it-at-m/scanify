@@ -6,6 +6,14 @@
 
 The **Scanify** flutter application is a powerful camera based scanner for all common QR and barcode formats. Scanify is originally developed by a student as a project at Hof University (Hochschule Hof). Camera permission is required for full functionality.
 
+## Download
+
+<a href="https://play.google.com/store/apps/details?id=de.muenchen.appcenter.scanify">
+  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="80">
+</a>
+
+The easiest way to use Signalo is to download it directly from the Google Play Store.
+
 ## Screenshots
 
 <p>
