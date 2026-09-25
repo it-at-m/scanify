@@ -377,10 +377,10 @@ packages:
     dependency: "direct main"
     description:
       name: haptic_feedback
-      sha256: c6b7ce370f17142cd6df1ed29add2cf50393aa967d9c5638e6fb7dbeff7414ec
+      sha256: "1a0c4bac6bbfbf7e29ffc3f737b85649dcf8475f50f072e8701cf6460d7a3e7f"
       url: "https://pub.dev"
     source: hosted
-    version: "0.6.5"
+    version: "0.7.0"
   hive_ce:
     dependency: transitive
     description:
@@ -1212,4 +1212,4 @@ packages:
     version: "3.1.4"
 sdks:
   dart: ">=3.13.0 <4.0.0"
-  flutter: ">=3.44.0"
+  flutter: ">=3.47.0"
