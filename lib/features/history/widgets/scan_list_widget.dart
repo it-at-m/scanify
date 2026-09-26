@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_application/features/history/widgets/not_found_widget.dart';
 import 'package:flutter_application/features/history/widgets/scan_element_widget.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
