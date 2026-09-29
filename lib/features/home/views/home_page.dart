@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_application/features/home/widgets/onboarding_widget.dart';
 import 'package:flutter_application/features/home/widgets/permissions_widget.dart';
 

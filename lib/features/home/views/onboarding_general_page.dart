@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class OnboardingGeneralPage extends StatelessWidget {
   const OnboardingGeneralPage({super.key});
@@ -45,7 +45,7 @@ class OnboardingGeneralPage extends StatelessWidget {
                   showLicensePage(
                     context: context,
                     applicationName: 'Scanify',
-                    applicationVersion: '1.0.0',
+                    applicationVersion: '1.1.0',
                   );
                 },
                 child: const Text('View all Licenses'),
